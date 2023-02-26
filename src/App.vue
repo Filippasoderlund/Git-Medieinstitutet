@@ -9,13 +9,12 @@
     <div>
       <span>Detta är endast för att ha mer på sidan</span><br>
       <span>Även mer extra text</span>
+      <span>test span</span>
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style>
   button {
@@ -23,7 +22,4 @@
     background-color: rgb(80, 49, 175);
     border: solid 1px black;
   }
-
-
-
 </style>
