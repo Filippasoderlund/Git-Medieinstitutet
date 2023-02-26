@@ -1,30 +1,29 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    <h1>Hobby</h1>
+    <button>Test</button>
+    <article>
+      Detta är en uppgift för att lära sig mer i git, har även valt att testa på vue och ts. <br>
+      Har idetorka för tillfället så detta duger för nu. 
+    </article>
+    <div>
+      <span>Detta är endast för att ha mer på sidan</span><br>
+      <span>Även mer extra text</span>
+    </div>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+<script setup lang="ts">
+
+</script>
+
+<style>
+  button {
+    margin-bottom: 30px;
+    background-color: rgb(80, 49, 175);
+    border: solid 1px black;
+  }
+
+
+
 </style>
